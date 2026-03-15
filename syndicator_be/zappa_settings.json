@@ -16,13 +16,16 @@
       "SecurityGroupIds": ["sg-******"]
     },
     "environment_variables": {
-      "DB_NAME": "db_******",
-      "DB_USER": "db_******",
-      "DB_PASSWORD": "******",
-      "DB_HOST": "******  ",
-      "DB_PORT": "5432",
+      "DJANGO_ENV": "production",
+      "SECRET_KEY": "SECRET_KEY",
+      "DB_NAME": "DB_NAME",
+      "DB_USER": "DB_USER",
+      "DB_PASSWORD": "DB_PASSWORD",
+      "DB_HOST": "DB_HOST",
+      "DB_PORT": "DB_PORT",
       "DEBUG": "False",
-      "ALLOWED_HOSTS": "127.0.0.1,localhost"
+      "ALLOWED_HOSTS": "ALLOWED_HOSTS",
+      "CORS_ALLOWED_ORIGINS": "CORS_ALLOWED_ORIGINS"
     }
   }
 }

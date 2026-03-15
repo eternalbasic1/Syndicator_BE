@@ -21,6 +21,8 @@ staticfiles/        # If you collectstatic locally
 .env
 .env.*              # Optional: any named environment files
 *.env
+.env.production
+.env.production.*   
 
 # Django migrations (optional — only ignore if you're generating them locally per dev)
 # */migrations/
